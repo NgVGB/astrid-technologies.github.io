@@ -382,7 +382,7 @@ body {
   width: 100%;
 }
 
-.nav-menu li.buy-tickets a {
+.nav-menu li.purchase a {
   color: #fff;
   background: #2533f5;
   padding: 10px 22px;
@@ -396,12 +396,12 @@ body {
   font-size: 13px;
 }
 
-.nav-menu li.buy-tickets a:hover {
+.nav-menu li.purchase a:hover {
   background: #2533f531;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.purchase:hover a:before,
+.nav-menu li.purchase.menu-active a:before {
   visibility: hidden;
 }
 
