@@ -648,7 +648,8 @@ section.faq {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 140px 0px;
+  padding: 100px 0px;
+  padding-bottom: 10px;
 }
 
 section.faq .item {
