@@ -1854,3 +1854,25 @@ body{
 .secondary-nav li a:hover:after {
     width: 100%;
 }
+
+.btnBanner {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #382ca1;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #382ca1;
+    text-transform: uppercase;
+    transition: all .3s;
+  }
+  
+.btnBanner:hover {
+    background-color: white;
+    color: #000;
+    border: 2px solid #382ca1;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
