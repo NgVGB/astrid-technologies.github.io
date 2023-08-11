@@ -13,12 +13,22 @@
 
     <div class="sidebar">
         <a href="index">
-        <img src="images2/astridnav.png">
+            <img class="lightimg">
         </a>
         <ul class="side-menu">
             <li><a href="index"><i class="fa-solid fa-house"></i> Home</a></li>
             <li><a href="tos"><i class="fa-solid fa-scroll"></i> Terms Of Service</a></li>
             <li><a href="pp"><i class="fa-solid fa-book"></i> Privacy Policy</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="theme">
+                    <i class="fa-solid fa-lightbulb"></i> Theme
+                    &nbsp;
+                    <input type="checkbox" id="theme-toggle" hidden>
+                    <label for="theme-toggle" class="theme-toggle"></label>
+                </a>
+            </li>
         </ul>
     </div>
 
@@ -97,7 +107,7 @@
         </main>
 
     </div>
-
+    <script src="tospp/theme.js"></script>
     <script src="https://kit.fontawesome.com/f99ef69b6a.js" crossorigin="anonymous"></script>
 </body>
 
