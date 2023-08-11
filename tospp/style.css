@@ -50,7 +50,7 @@ body.dark p{
 
 body.dark .lightimg {
     margin-top: 45px;
-    background-image: url('../images2/astridnavdarktheme.png');
+    background-image: url('images2/astridnavdarktheme.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -58,7 +58,7 @@ body.dark .lightimg {
 
 .lightimg {
     margin-top: 45px;
-    background-image: url('../images2/astridnav.png');
+    background-image: url('images2/astridnav.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
