@@ -44,6 +44,26 @@ body.dark{
     --dark: #fbfbfb
 }
 
+body.dark p{
+    color: #fff;
+}
+
+body.dark .lightimg {
+    margin-top: 45px;
+    background-image: url('../images2/astridnavdarktheme.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lightimg {
+    margin-top: 45px;
+    background-image: url('../images2/astridnav.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 body{
     background: var(--grey);
     overflow-x: hidden;
@@ -271,7 +291,7 @@ body{
     display: block;
     min-width: 50px;
     height: 25px;
-    background: var(--grey);
+    background: rgb(206, 206, 206);
     cursor: pointer;
     position: relative;
     border-radius: 25px;
@@ -284,7 +304,7 @@ body{
     left: 2px;
     bottom: 2px;
     width: calc(25px - 4px);
-    background: var(--primary);
+    background: blue;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
